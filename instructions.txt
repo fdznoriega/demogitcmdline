@@ -5,6 +5,23 @@ cd [directory]      -- lets you traverse
 ls                  -- lets you see it all
 
 --GitHub Commands--
+git init aRepo      -- will initialize a repository locally
+git clone aUrl      -- will pull down a repository from GitHub
 git status          -- tells you how far behind/ahead you are
+git add fileName    -- adds file to the queue
 git commit -m ""    -- prep something for a push into GitHub
 git push            -- push files onto GitHub
+git pull            -- pull files down from GitHub and have that
+
+For example, let's say I want to add the folly.txt file to this folder.
+I would:
+  1. Make the folly.txt file.
+  2. Add whatever I wanted
+  3. Open command line
+  4. Go to the directory I am working in
+  5. $ git add folly.txt
+  6. $ git commit -m "added folly"
+  7. $ git push
+  8. And we're done
+
+But what if I want to add many files of the same type? Use *.filetype
