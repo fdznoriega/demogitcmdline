@@ -13,6 +13,7 @@ git commit -m ""    -- prep something for a push into GitHub
 git push            -- push files onto GitHub
 git pull            -- pull files down from GitHub and have that
 
+--Examples and Scenarios--
 For example, let's say I want to add the folly.txt file to this folder.
 I would:
   1. Make the folly.txt file.
@@ -24,4 +25,10 @@ I would:
   7. $ git push
   8. And we're done
 
-But what if I want to add many files of the same type? Use *.filetype
+Want to add everything you've got? Easy:
+$ git add -A
+
+Random tidbit: get stuck on a screen or commit? ESC:wq
+
+Note that I have been pushing into the MASTER branch all along.
+That isn't in the spirit of collaborative work, so what do I do?
