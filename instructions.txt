@@ -1,1 +1,10 @@
 Using the git command line is easy!
+
+--Mac OSX Commands--
+cd [directory]      -- lets you traverse
+ls                  -- lets you see it all
+
+--GitHub Commands--
+git status          -- tells you how far behind/ahead you are
+git commit -m ""    -- prep something for a push into GitHub
+git push            -- push files onto GitHub
